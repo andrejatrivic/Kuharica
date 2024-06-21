@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kuharica.Server", "Kuharica.Server\Kuharica.Server.csproj", "{5D85DC14-003A-4100-B1A4-917FD4FC7E26}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "kuharica.client", "kuharica.client\kuharica.client.esproj", "{8D8698A7-7ACA-45B1-99BB-8AE5F362DBEB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D85DC14-003A-4100-B1A4-917FD4FC7E26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D85DC14-003A-4100-B1A4-917FD4FC7E26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D85DC14-003A-4100-B1A4-917FD4FC7E26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D85DC14-003A-4100-B1A4-917FD4FC7E26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D8698A7-7ACA-45B1-99BB-8AE5F362DBEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D8698A7-7ACA-45B1-99BB-8AE5F362DBEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D8698A7-7ACA-45B1-99BB-8AE5F362DBEB}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{8D8698A7-7ACA-45B1-99BB-8AE5F362DBEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D8698A7-7ACA-45B1-99BB-8AE5F362DBEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D8698A7-7ACA-45B1-99BB-8AE5F362DBEB}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1EC6EB5C-E54C-493F-A411-C85923289909}
+	EndGlobalSection
+EndGlobal
