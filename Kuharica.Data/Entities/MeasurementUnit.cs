@@ -1,0 +1,8 @@
+﻿namespace kuharica.Data.Entities
+{
+	public class MeasurementUnit
+	{
+		public int Id { get; set; }
+		public string Name { get; set; }
+	}
+}

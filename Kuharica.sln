@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kuharica.Server", "Kuharica.Server\Kuharica.Server.csproj", "{5D85DC14-003A-4100-B1A4-917FD4FC7E26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kuharica.Server", "Kuharica.Server\Kuharica.Server.csproj", "{5D85DC14-003A-4100-B1A4-917FD4FC7E26}"
 EndProject
 Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "kuharica.client", "kuharica.client\kuharica.client.esproj", "{8D8698A7-7ACA-45B1-99BB-8AE5F362DBEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kuharica.Data", "Kuharica.Data\Kuharica.Data.csproj", "{745E6A14-A542-4283-BE40-B620B36AF15B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kuharica.Business", "Kuharica.Business\Kuharica.Business.csproj", "{84983D52-F5F8-4ACB-BDD3-2BE399D7F090}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +27,14 @@ Global
 		{8D8698A7-7ACA-45B1-99BB-8AE5F362DBEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D8698A7-7ACA-45B1-99BB-8AE5F362DBEB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8D8698A7-7ACA-45B1-99BB-8AE5F362DBEB}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{745E6A14-A542-4283-BE40-B620B36AF15B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{745E6A14-A542-4283-BE40-B620B36AF15B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{745E6A14-A542-4283-BE40-B620B36AF15B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{745E6A14-A542-4283-BE40-B620B36AF15B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84983D52-F5F8-4ACB-BDD3-2BE399D7F090}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84983D52-F5F8-4ACB-BDD3-2BE399D7F090}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84983D52-F5F8-4ACB-BDD3-2BE399D7F090}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84983D52-F5F8-4ACB-BDD3-2BE399D7F090}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
